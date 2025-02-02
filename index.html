@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Habib Idriss Daoud</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Portfolio</a>
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Home Section Starts -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Habib Idriss Daoud</span>
+          </h2>
+          <p class="text-muted">
+            I am  final year Computer Science student specializing in Cybersecurity at Albukhary International University with a CGPA of 3.50. I have strong expertise in identifying vulnerabilities, preventing cyber threats, and implementing robust security measures. I am currently looking for internship opportunities to further enhance my skills in cybersecurity and web development.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a
+              href="https://drive.google.com/file/d/1swayGWqTqIJkF7x-f-2MTgi_XHWnRY5m/view?usp=sharing"
+              download="Habib_Resume.pdf"
+              style="text-decoration: none; color: #fff;"
+            >Seee  Projects</a>
+          </button>
+          <a href="https://habibosportfolio.my.canva.site/photography-portfolio-website-in-grey-black-light-experimental-style" class="link ms-4">View My Project</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block" data-aos="fade-left">
+          <img src="images/habib.png" class="img-fluid" alt="Habib Idriss Daoud" />
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Ends -->
+
+    <!-- Expertise Section Starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>Cybersecurity Specialist Providing Digital Security Services such as vulnerablity accessment and security analyses </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img src="images/service-icon1.png" class="w-25 img-fluid img" alt="" />
+            </div>
+            <div class="content mt-3">
+              <h4>Risk Assessment</h4>
+              <p class="text-muted">
+                Skilled in identifying vulnerabilities, assessing risks, and implementing preventive measures to enhance security.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img src="images/service-icon2.png" class="w-25 img-fluid img" alt="" />
+            </div>
+            <div class="content mt-3">
+              <h4>Ethical Hacking</h4>
+              <p class="text-muted">
+                Expertise in ethical hacking tools like Kali Linux, Metasploit, and Burp Suite to identify system vulnerabilities.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img src="images/service-icon3.png" class="w-25 img-fluid img" alt="" />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                Proficient in JavaScript, Python, and WordPress to design and develop user-friendly websites and applications.
+              </p>
+              <a href="#" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Expertise Section Ends -->
+
+    <!-- Portfolio Section Starts -->
+    <section class="portfolio mt-5 py-5" id="portfolio">
+      <div class="heading text-center">
+        <small>My Projects</small>
+        <h3>Recent Work</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-5" data-aos="fade-up">
+          <div class="project-card">
+            <img src="images/project1.jpg" class="img-fluid" alt="OTP Based Smart Lock System" />
+            <div class="content mt-3">
+              <h4>OTP Based Smart Lock System</h4>
+              <p class="text-muted">
+                Developed an OTP-based smart lock system for AIU to enhance access control and monitor unauthorized access statuses of unlocked doors.
+              </p>
+              <a href="https://habibosportfolio.my.canva.site/photography-portfolio-website-in-grey-black-light-experimental-style" class="link">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5" data-aos="fade-up">
+          <div class="project-card">
+            <img src="images/project2.jpg" class="img-fluid" alt="AIU E-Learning System" />
+            <div class="content mt-3">
+              <h4>AIU E-Learning System</h4>
+              <p class="text-muted">
+                Designed and implemented an e-learning system for AIU to facilitate online education and resource sharing.
+              </p>
+              <a href="https://habibosportfolio.my.canva.site/photography-portfolio-website-in-grey-black-light-experimental-style" class="link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section Ends -->
+
+    <!-- About Section Starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">90%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">60%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress ethical-hacking">
+                  <span class="progress-value ethical-progress">85%</span>
+                </div>
+                <br />
+                <span class="text">Ethical Hacking</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress python">
+                  <span class="progress-value python-progress">75%</span>
+                </div>
+                <br>
+                <span class="text">Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Secure Digital Experiences</h3>
+            <p class="text-muted">
+              I am a Computer Science student focusing on Cybersecurity and Web Development. I am actively seeking internship opportunities to further enhance my skills. I have proven experience in helping students secure scholarships, conducting research, training employees, and performing penetration testing to raise awareness about cyber threats.
+            </p>
+            <p class="text-muted">
+              Feel free to reach out to me for collaboration or inquiries:
+              <br>
+              <strong>Phone:</strong> +60176372680
+              <br>
+              <strong>Email:</strong> habib.daoud@student.aiu.edu.my | habibos.idriss@gmail.com
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <a
+                href="https://drive.google.com/file/d/1swayGWqTqIJkF7x-f-2MTgi_XHWnRY5m/view?usp=sharing"
+                download="Habib_Resume.pdf"
+                style="text-decoration: none; color: #fff;"
+              >Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Footer Starts -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Library JS CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, offset: 50 });
+    </script>
+  </body>
+</html>
